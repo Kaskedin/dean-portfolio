@@ -22,12 +22,12 @@ const TechStack: React.FC = () => {
     { name: 'React Native', color: 'bg-cyan-600' },
     { name: 'TailwindCSS', color: 'bg-teal-500' },
     { name: 'Figma', color: 'bg-orange-600' },
-    { name: 'GitHub', color: 'bg-gray-800' },
+    { name: 'GitHub', color: 'bg-gray-700' },
   ];
 
   return (
     <section className="my-8">
-      <h2 className="text-2xl font-semibold mb-4">💻 Tech Stack</h2>
+      <h2 className="text-2xl text-white font-semibold mb-4">💻 Tech Stack</h2>
       <div className="flex flex-wrap gap-2">
         {techs.map((tech) => (
           <span 

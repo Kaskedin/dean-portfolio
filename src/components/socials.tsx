@@ -16,7 +16,7 @@ const Socials: React.FC = () => {
 
   return (
     <section className="my-8">
-      <h2 className="text-2xl font-semibold mb-4">🌐 Socials</h2>
+      <h2 className="text-2xl text-white font-semibold mb-4">🌐 Socials</h2>
       <div className="flex space-x-4">
         {socialLinks.map((social) => (
           <a 
